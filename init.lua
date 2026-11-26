@@ -982,6 +982,8 @@ vim.opt.shiftwidth = 4 -- Number of spaces used for each indent level
 vim.opt.softtabstop = 4 -- Number of spaces inserted/deleted when pressing Tab/Backspace
 vim.opt.expandtab = true -- Use spaces instead of literal tab characters
 
+vim.g.sass_recommended_style = 0
+
 vim.g.vimtex_view_method = 'sioyek'
 vim.g.vimtex_callback_progpath = 'nvim'
 
